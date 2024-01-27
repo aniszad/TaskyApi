@@ -17,10 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from users import views as users_views
-from projects import views as projects_views
-from tasks import views as tasks_views
-from request import views as request_views
+from TaskyApiP.users import views as users_views
+from TaskyApiP.projects import views as projects_views
+from TaskyApiP.tasks import views as tasks_views
+from TaskyApiP.request import views as request_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
